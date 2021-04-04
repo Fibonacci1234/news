@@ -11,8 +11,8 @@ navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {enable
  
 
 function successLocation(position) { 
-    console.log(position)
-    fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=58eb9b73c6ff15206d68a765952d5d49&units=metric&lang=vi`)
+    // console.log(position)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=58eb9b73c6ff15206d68a765952d5d49&units=metric&lang=vi`)
     .then(response => {
         if(response.ok) {
             return response.json()
