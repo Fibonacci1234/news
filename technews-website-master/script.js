@@ -15,7 +15,7 @@ fetch (url)
                 hotdiv.classList.add('hot-topic')
                 let img = document.createElement('img')
                 if(articl.image === 'None'){
-                    img.src = 'images/banner-news-1.jpg'
+                    img.src = 'technews-website-master/images/banner-news-1.jpg'
                 }else {           
                     img.src = articl.image
                 }
@@ -38,7 +38,7 @@ fetch (url)
                 let article = document.createElement('article')
                 let img = document.createElement('img')
                 if(articl.image === 'None'){
-                    img.src = 'images/banner-news-1.jpg'
+                    img.src = 'technews-website-master/images/banner-news-1.jpg'
                 }else {           
                     img.src = articl.image
                 }
