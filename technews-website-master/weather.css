@@ -1,0 +1,54 @@
+.banner-main-content {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+}
+.banner-main-content .weather {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.banner-main-content .weather h1#name {
+  color: black;
+  background-color: #fbbf24;
+  font-size: 2em;
+  text-align: center;
+  padding: 10px;
+  overflow: hidden;
+}
+.banner-main-content .weather .body {
+  flex: 1 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.banner-main-content .weather .body img#img {
+  width: 40%;
+}
+.banner-main-content .weather .body .temp {
+  display: flex;
+  align-items: center;
+}
+.banner-main-content .weather .body .temp h3#temp {
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+}
+.banner-main-content .weather .body h4#description {
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.banner-main-content .weather .body p#date {
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+}
+.banner-main-content .weather .foot {
+  background-color: #fbbf24;
+  justify-content: space-evenly;
+  display: flex;
+}
+.banner-main-content .weather .foot h4 {
+  font-size: 36px;
+}
