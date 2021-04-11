@@ -68,14 +68,9 @@ fetch (url)
     .catch(err => console.log(err))
 
 
-let navbar = document.getElementsByClassName("nav-bar")
-menuitems.style.maxHeight = "0px"
+let navbar = document.getElementById("nav-bar")
 function menutoggle(){
-    if(menuitems.style.maxHeight == "0px"){
-        menuitems.style.maxHeight = "200px"
-    }
-    else {
-        menuitems.style.maxHeight = "0px"
-    }
+    navbar.classList.toggle("nav-bar")
+    navbar.classList.toggle("mobile-nav-bar")
 }
 
